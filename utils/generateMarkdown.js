@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) 
 {
-  let x = license.license;
+  let x = license;
 
   // ["MIT","APACHE 2.0","GPL 3.0","BSD 3","None"],
 
@@ -22,10 +22,10 @@ function renderLicenseBadge(license)
       return '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]'
       break;
     case "None":
-      return ""
+      return` ""`
       break;
     default:
-      return ''
+      return '""'
       break;
   }
 
@@ -35,7 +35,7 @@ function renderLicenseBadge(license)
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) { 
-  let x = license.license;
+  let x = license;
 
   // ["MIT","APACHE 2.0","GPL 3.0","BSD 3","None"],
 
@@ -71,10 +71,14 @@ function renderLicenseSection(license) { }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ##Github username ${data.username}
   ## license 
   ${renderLicenseBadge(data.license)}
-  
-  
+  ## App Name 
+  ${data.projectname}
+  ##Email :- ${data.email}
+  ## Description
+  ${data.description}
 
 `;
 }
