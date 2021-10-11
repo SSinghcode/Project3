@@ -1,9 +1,47 @@
-# mind blow
-  ##Github username ssingh
-  ## license 
+# 
+  ##Github username 
+
+  ## Table of Contents
+  -[Description](#description)
+
+  -[Installations](#installation)
+
+  -[Usage](#usage)
+
+  -[Contributing](#contributing)
+
+  -[License](#license)
+  
+  -[Questions](#questions)
+
+
+
+
+
+
+
+
+
+
+  ## license  
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  ## App Name code read me
-  ##Email :- shamsher@gmail.com
+  ## App Name 
+  undefined
+  ##Email :- 
+  
+
+  ## Installations
+
+  undefined
+
   ## Description
-  trying to create read ne through node js file system
+  
+  ## Usage
+  
+  ## Tests
+  
+  ## Dependencies
+  
+  ## contribution
+  undefined
 
